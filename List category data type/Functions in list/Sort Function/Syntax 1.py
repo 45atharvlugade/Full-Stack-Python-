@@ -2,3 +2,4 @@ student= ['Student1', 'Student2', 'Student3', 'Student4', 'Student5', 'Student6'
 
 student.sort() # here Quick sort is avialable
 print(student)
+
