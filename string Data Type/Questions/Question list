@@ -1,0 +1,21 @@
+Part 1: String Slicing (str)
+
+Take a string input and print every second character.
+
+Reverse the string using slicing.
+
+Print only the first 5 characters of a string.
+
+Print the last 3 characters of a string.
+
+Print the string from index 2 to index 8.
+
+Print the string from index 5 to the end.
+
+Print the string in reverse skipping every 2nd character.
+
+Take a string and create a new string by taking alternate characters starting from index 1.
+
+Check if a string is a palindrome using slicing.
+
+Extract the domain name from an email address using slicing.
