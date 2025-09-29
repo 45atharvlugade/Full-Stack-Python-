@@ -1,0 +1,1 @@
+# Q11) Remove all elements from a list. Q11) Remove all elements from a list.
