@@ -1,0 +1,120 @@
+🔹 Basic List Implementation (Q1–Q15)
+
+Q1 ) Create a list of 5 integers and print it.
+
+Q2 ) Create a list with elements of different data types.
+
+Q3 )How do you access the first and last elements of a list?
+
+Q4) Append the number 99 to a list and print the updated list.
+
+Q5) Insert a value at index 2 in a list.
+
+Q6) Remove the third element from a list.
+
+Q7) ow do you find the length of a list?
+
+Q8) Reverse a list using slicing.
+
+Q9) Sort a list of numbers in ascending order.
+
+Q10) Sort a list in descending order.
+
+Q11) Remove all elements from a list.
+
+Q12) Copy one list to another without using =.
+
+Create a list of numbers from 1 to 10 using range() and convert it to a list.
+
+Q13) Use a loop to print each element of a list.
+
+Q14) Check if a value exists in a list.
+
+
+--------------------------------------------------------------------------------
+
+
+🔹 Intermediate List Operations (Q16–Q30)
+
+Q1) slice a list to get the middle 3 elements.
+
+Q2) Count how many times a value appears in a list.
+
+Q3) Find the index of a specific element in a list.
+
+Q4) Use list comprehension to create a list of squares from 1 to 10.
+
+Q5) Replace an element at a specific index.
+
+Q6) Combine two lists into one.
+
+Q7) Remove duplicate elements from a list.
+
+Use enumerate() to loop through a list with index.
+
+Q8) Find the max and min values in a list.
+
+Q9) Multiply each element in a list by 2 using a loop.
+
+Create a list of even numbers from 1 to 100.
+
+Filter only odd numbers from a list using list comprehension.
+
+Create a list of strings and sort them alphabetically.
+
+Use a loop to remove all elements greater than 50 from a list.
+
+Write a function that returns the sum of all numbers in a list.
+
+
+------------------------------------------------------------------------------------------------------------------------------
+
+🔹 Advanced / Nested Lists (Q31–Q45)
+
+Create a 3x3 matrix using nested lists.
+
+Access the middle element of a 3x3 matrix.
+
+Sum all elements of a nested list (matrix).
+
+Use nested loops to print elements of a 2D list.
+
+Transpose a 2x3 matrix into a 3x2 matrix.
+
+Flatten a nested list using a loop.
+
+Check if all elements in a list are unique.
+
+Write a function to reverse each row in a 2D list.
+
+Create a nested list with 5 rows and 3 columns filled with zeros.
+
+Use list comprehension to create a 5x5 grid of numbers.
+
+
+--------------------------------------------------------------------------------------------
+
+
+🔹 Real-World Use Cases & Challenges (Q46–Q50)
+
+Store a list of student names and print them in sorted order.
+
+Count how many students have names starting with "A".
+
+Given a list of marks, find how many are above 75.
+
+Remove all empty strings from a list.
+
+Convert a list of strings to uppercase.
+
+Implement a simple to-do list using list operations.
+
+Given a list of strings, remove all strings longer than 5 characters.
+
+Find the second largest number in a list.
+
+Create a menu list and allow the user to "Add", "View", or "Delete" items.
+
+Given a list of numbers, separate them into two lists: even and odd.
+
+Want the answers too?
