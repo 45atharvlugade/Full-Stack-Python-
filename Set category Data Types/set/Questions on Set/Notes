@@ -1,0 +1,115 @@
+Python Set Built-in Methods
+
+(Available to every set object)
+
+add(elem)
+Adds a single element elem to the set.
+
+s = {1, 2}
+s.add(3)  # {1, 2, 3}
+
+
+clear()
+Removes all elements from the set, making it empty.
+
+s = {1, 2, 3}
+s.clear()  # set()
+
+
+copy()
+Returns a shallow copy of the set.
+
+s = {1, 2, 3}
+new_s = s.copy()  # {1, 2, 3}
+
+
+difference(*others)
+Returns elements in the set that are not in the other(s).
+
+{1,2,3}.difference({2,3})  # {1}
+
+
+difference_update(*others)
+Removes elements found in the other set(s) from the current set.
+
+s = {1, 2, 3}
+s.difference_update({2})  # {1, 3}
+
+
+discard(elem)
+Removes an element if present; does not raise error if not found.
+
+s = {1, 2, 3}
+s.discard(2)  # {1, 3}
+s.discard(5)  # no error
+
+
+intersection(*others)
+Returns elements common to all sets.
+
+{1,2,3}.intersection({2,3,4})  # {2,3}
+
+
+intersection_update(*others)
+Updates the set with only elements found in all sets.
+
+s = {1, 2, 3}
+s.intersection_update({2,3,4})  # {2,3}
+
+
+isdisjoint(other)
+Returns True if two sets have no common elements.
+
+{1,2}.isdisjoint({3,4})  # True
+
+
+issubset(other)
+Returns True if all elements of the set are in other.
+
+{1,2}.issubset({1,2,3})  # True
+
+
+issuperset(other)
+Returns True if the set contains all elements of other.
+
+{1,2,3}.issuperset({2})  # True
+
+
+pop()
+Removes and returns a random element. Raises KeyError if empty.
+
+s = {1, 2, 3}
+elem = s.pop()  # removes random element
+
+
+remove(elem)
+Removes an element; raises KeyError if not found.
+
+s = {1, 2, 3}
+s.remove(2)  # {1, 3}
+
+
+symmetric_difference(other)
+Returns elements in either set, but not both.
+
+{1,2,3}.symmetric_difference({2,3,4})  # {1,4}
+
+
+symmetric_difference_update(other)
+Updates the set with the symmetric difference.
+
+s = {1, 2, 3}
+s.symmetric_difference_update({2,3,4})  # {1,4}
+
+
+union(*others)
+Returns a new set with all unique elements from all sets.
+
+{1,2}.union({2,3})  # {1,2,3}
+
+
+update(*others)
+Updates the set by adding elements from other set(s).
+
+s = {1,2}
+s.update({2,3})  # {1,2,3}

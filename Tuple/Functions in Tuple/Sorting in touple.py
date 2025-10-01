@@ -1,0 +1,6 @@
+touple=(3,2,4,6,5,3,1,8)
+print("Touple : ",touple,type(touple))
+list1=sorted(touple,reverse=True)
+print("List :",list1,type(list1))
+resultTouple=tuple(list1)
+print("Sorted Touple : ",resultTouple,type(resultTouple))

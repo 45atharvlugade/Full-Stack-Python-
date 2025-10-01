@@ -1,0 +1,60 @@
+🔹 Beginner-Level Questions
+
+You have a list of student roll numbers, but some are repeated. How can you get only the unique roll numbers?
+
+A class has two sections: Section A roll numbers and Section B roll numbers. Find students who are common in both sections.
+
+A shop records the product IDs sold in a day. How can you check if any product was sold more than once?
+
+Write a program to remove a particular student’s roll number from the set (if it exists).
+
+How will you check whether all students of Section A are also present in the School Master list?
+
+
+
+
+🔹 Intermediate-Level Questions
+
+Two companies conducted hiring. You are given two sets of selected candidates. Find candidates who were selected by both companies.
+
+From two cricket teams, find players who are unique to each team (not common).
+
+A university stores all registered courses in one set. A student selects 4 subjects. Write a program to check if the student’s selection is valid (all subjects belong to the university set).
+
+A city database has a set of registered voters. On election day, another set contains actual voters. Find who didn’t vote.
+
+Write a program to randomly remove students one by one from a set until it becomes empty.
+
+
+
+🔹 Advanced/Applied Questions
+
+You are building a plagiarism checker. Given two sets of unique words from two essays, find:
+
+Common words
+
+Unique words in each essay
+
+Total unique vocabulary used.
+
+A shopping site records all users who viewed a product (views) and another set of users who purchased it (purchases).
+
+Find users who viewed but did not purchase.
+
+Check if all purchasers are from the viewers’ set.
+
+A social media app has a set of followers and a set of following.
+
+Find mutual friends (intersection).
+
+Find non-mutual connections (symmetric difference).
+
+You’re given sets of programming languages known by different employees.
+
+Find employees who know both Python and Java.
+
+Find employees who know only one language.
+
+Find employees who don’t know Python.
+
+Create a system that keeps track of unique visitors to a website using sets. Update the set whenever a new visitor arrives, and report the total unique visitors so far.
